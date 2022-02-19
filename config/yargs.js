@@ -21,7 +21,7 @@ const argv = require("yargs")
     {
       alias: "hasta",
       type: "Number",
-      demandOption: true,
+      default: 10,
       describe: "Es el limite de la tabla de multiplicar hasta donde va ha llegar".rainbow.italic,
     }
   )
